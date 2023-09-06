@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="HappyDayShoppingApp" time="122.337" tests="1" failures="0" errors="0">
+   <testsuite name="HappyDayShoppingApp" tests="1" failures="0" errors="0" time="122.337" skipped="0" timestamp="2023-08-18 23:10:36" hostname="riyan - 192.168.1.6" id="Test Suites/HappyDayShoppingApp">
+      <properties>
+         <property name="deviceName" value="samsung SM-M515F (Android 12)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/riyan/Desktop/katalon_android/EduApp/Reports/20230818_231019/HappyDayShoppingApp/20230818_231019"/>
+         <property name="logFiles" value="/Users/riyan/Desktop/katalon_android/EduApp/Reports/20230818_231019/HappyDayShoppingApp/20230818_231019/execution0.log, /Users/riyan/Desktop/katalon_android/EduApp/Reports/20230818_231019/HappyDayShoppingApp/20230818_231019/appium.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="riyan - 192.168.1.6"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.5.5.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="SM-M515F"/>
+         <property name="hostAddress" value="192.168.1.6"/>
+         <property name="deviceManufacturer" value="samsung"/>
+         <property name="deviceId" value="RR8NA046P2J"/>
+         <property name="deviceName" value="samsung SM-M515F (Android 12)"/>
+         <property name="deviceOSVersion" value="12"/>
+      </properties>
+      <testcase name="Test Cases/HappyDayShoppingApp/checkout process" time="121.242" classname="Test Cases/HappyDayShoppingApp/checkout process" status="PASSED">
+         <system-out><![CDATA[2023-08-18 23:10:37 - [TEST_CASE][PASSED] - Test Cases/HappyDayShoppingApp/checkout process: Test Cases/HappyDayShoppingApp/checkout process
+
+2023-08-18 23:10:38 - [TEST_STEP][PASSED] - startApplication("/Users/riyan/Desktop/katalon_android/EduApp/mobileapp/HappyDayShopping_1.2.apk", true): Started app at: '/Users/riyan/Desktop/katalon_android/EduApp/mobileapp/HappyDayShopping_1.2.apk'
+
+2023-08-18 23:10:39 - [MESSAGE][INFO] - Detected NodeJS location: "/usr/local/bin/node"
+
+2023-08-18 23:10:43 - [MESSAGE][INFO] - Appium server started on port 50,214
+
+2023-08-18 23:11:15 - [MESSAGE][PASSED] - Started app at: '/Users/riyan/Desktop/katalon_android/EduApp/mobileapp/HappyDayShopping_1.2.apk'
+
+2023-08-18 23:11:15 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/HappyDayShoppingApp/Promo - Flash Sale"), 0): Tapped on element 'Object Repository/HappyDayShoppingApp/Promo - Flash Sale'
+
+2023-08-18 23:11:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-18 23:11:16 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/HappyDayShoppingApp/Promo - Flash Sale'
+
+2023-08-18 23:11:16 - [TEST_STEP][PASSED] - scrollToText("Vitress Hair Polish Long Lasting Fragrance", STOP_ON_FAILURE): Scrolling to text 'Vitress Hair Polish Long Lasting Fragrance' successfully
+
+2023-08-18 23:11:48 - [MESSAGE][PASSED] - Scrolling to text 'Vitress Hair Polish Long Lasting Fragrance' successfully
+
+2023-08-18 23:11:48 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/HappyDayShoppingApp/Product - Vitress Hair Polish"), 0): Tapped on element 'Object Repository/HappyDayShoppingApp/Product - Vitress Hair Polish'
+
+2023-08-18 23:11:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-18 23:11:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/HappyDayShoppingApp/Product - Vitress Hair Polish'
+
+2023-08-18 23:11:48 - [TEST_STEP][PASSED] - setText(findTestObject("HappyDayShoppingApp/Quantity Product"), "3", 0): Text '3' has been set to element 'Object Repository/HappyDayShoppingApp/Quantity Product'
+
+2023-08-18 23:11:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-18 23:11:50 - [MESSAGE][PASSED] - Text '3' has been set to element 'Object Repository/HappyDayShoppingApp/Quantity Product'
+
+2023-08-18 23:11:50 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/HappyDayShoppingApp/android.widget.TextView - Add to Bag"), 0): Tapped on element 'Object Repository/HappyDayShoppingApp/android.widget.TextView - Add to Bag'
+
+2023-08-18 23:11:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-18 23:11:51 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/HappyDayShoppingApp/android.widget.TextView - Add to Bag'
+
+2023-08-18 23:11:51 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/HappyDayShoppingApp/android.widget.TextView - Your Bag"), 0): Tapped on element 'Object Repository/HappyDayShoppingApp/android.widget.TextView - Your Bag'
+
+2023-08-18 23:11:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-18 23:12:22 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/HappyDayShoppingApp/android.widget.TextView - Your Bag'
+
+2023-08-18 23:12:22 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/HappyDayShoppingApp/android.widget.TextView - Checkout"), 0): Tapped on element 'Object Repository/HappyDayShoppingApp/android.widget.TextView - Checkout'
+
+2023-08-18 23:12:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-18 23:12:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/HappyDayShoppingApp/android.widget.TextView - Checkout'
+
+2023-08-18 23:12:23 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/HappyDayShoppingApp/android.widget.TextView - If you have any inquiries or updates pls whatsap us at 94617563"), 0): Text of element 'Object Repository/HappyDayShoppingApp/android.widget.TextView - If you have any inquiries or updates pls whatsap us at 94617563' is: 'If you have any inquiries or updates pls whatsap us at 94617563. '
+
+2023-08-18 23:12:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-18 23:12:37 - [MESSAGE][PASSED] - Text of element 'Object Repository/HappyDayShoppingApp/android.widget.TextView - If you have any inquiries or updates pls whatsap us at 94617563' is: 'If you have any inquiries or updates pls whatsap us at 94617563. '
+
+2023-08-18 23:12:37 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2023-08-18 23:12:39 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-08-18 23:10:36 - [TEST_SUITE][PASSED] - HappyDayShoppingApp: Test Cases/HappyDayShoppingApp/checkout process]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

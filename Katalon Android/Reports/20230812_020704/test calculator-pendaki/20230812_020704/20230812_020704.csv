@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+test calculator-pendaki,,,,2023-08-12 02:07:25,2023-08-12 02:08:47,1m - 22.083s,PASSED
+,,,,,,,
+Test Cases/calculator/calculate-test,,,,2023-08-12 02:07:26,2023-08-12 02:07:59,33.500s,PASSED
+"startApplication(""mobileapp/Calculator_v8.1.apk"", false)",,,,2023-08-12 02:07:27,2023-08-12 02:07:52,25.232s,PASSED
+"tap(findTestObject(""mobileapp-calculator/Button - 4""), 0)",,,,2023-08-12 02:07:52,2023-08-12 02:07:54,2.198s,PASSED
+"tap(findTestObject(""mobileapp-calculator/perkalian.Button -""), 0)",,,,2023-08-12 02:07:54,2023-08-12 02:07:56,1.401s,PASSED
+"tap(findTestObject(""mobileapp-calculator/Button - 5""), 0)",,,,2023-08-12 02:07:56,2023-08-12 02:07:57,1.226s,PASSED
+"tap(findTestObject(""mobileapp-calculator/samadengan.Button -""), 0)",,,,2023-08-12 02:07:57,2023-08-12 02:07:58,1.618s,PASSED
+closeApplication(),,,,2023-08-12 02:07:58,2023-08-12 02:07:59,0.807s,PASSED
+,,,,,,,
+Test Cases/mobileapp-pendaki/open detail app-pendaki,,,,2023-08-12 02:07:59,2023-08-12 02:08:47,47.541s,PASSED
+"startApplication(""/Users/riyan/Desktop/katalon_android/EduApp/mobileapp/app-pendaki.apk"", true)",,,,2023-08-12 02:08:01,2023-08-12 02:08:31,30.843s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2023-08-12 02:08:31,2023-08-12 02:08:35,3.153s,PASSED
+"tap(findTestObject(""Object Repository/mobileapp-pendaki/burger.ImageButton""), 0)",,,,2023-08-12 02:08:35,2023-08-12 02:08:35,0.717s,PASSED
+"tap(findTestObject(""Object Repository/mobileapp-pendaki/android.widget.CheckedTextView - Peralatan""), 0)",,,,2023-08-12 02:08:35,2023-08-12 02:08:37,1.407s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2023-08-12 02:08:37,2023-08-12 02:08:40,3.063s,PASSED
+"tap(findTestObject(""Object Repository/mobileapp-pendaki/tenda.RelativeLayout""), 0)",,,,2023-08-12 02:08:40,2023-08-12 02:08:42,2.268s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2023-08-12 02:08:42,2023-08-12 02:08:45,3.010s,PASSED
+closeApplication(),,,,2023-08-12 02:08:45,2023-08-12 02:08:47,1.900s,PASSED

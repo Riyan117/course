@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+HappyDayShoppingApp,,,,2023-08-18 23:10:36,2023-08-18 23:12:39,2m - 2.337s,PASSED
+,,,,,,,
+Test Cases/HappyDayShoppingApp/checkout process,,,,2023-08-18 23:10:37,2023-08-18 23:12:39,2m - 1.242s,PASSED
+"startApplication(""/Users/riyan/Desktop/katalon_android/EduApp/mobileapp/HappyDayShopping_1.2.apk"", true)",,,,2023-08-18 23:10:38,2023-08-18 23:11:15,36.618s,PASSED
+"tap(findTestObject(""Object Repository/HappyDayShoppingApp/Promo - Flash Sale""), 0)",,,,2023-08-18 23:11:15,2023-08-18 23:11:16,1.313s,PASSED
+"scrollToText(""Vitress Hair Polish Long Lasting Fragrance"", STOP_ON_FAILURE)",,,,2023-08-18 23:11:16,2023-08-18 23:11:48,31.561s,PASSED
+"tap(findTestObject(""Object Repository/HappyDayShoppingApp/Product - Vitress Hair Polish""), 0)",,,,2023-08-18 23:11:48,2023-08-18 23:11:48,0.441s,PASSED
+"setText(findTestObject(""HappyDayShoppingApp/Quantity Product""), ""3"", 0)",,,,2023-08-18 23:11:48,2023-08-18 23:11:50,2.108s,PASSED
+"tap(findTestObject(""Object Repository/HappyDayShoppingApp/android.widget.TextView - Add to Bag""), 0)",,,,2023-08-18 23:11:50,2023-08-18 23:11:51,0.925s,PASSED
+"tap(findTestObject(""Object Repository/HappyDayShoppingApp/android.widget.TextView - Your Bag""), 0)",,,,2023-08-18 23:11:51,2023-08-18 23:12:22,30.344s,PASSED
+"tap(findTestObject(""Object Repository/HappyDayShoppingApp/android.widget.TextView - Checkout""), 0)",,,,2023-08-18 23:12:22,2023-08-18 23:12:23,0.910s,PASSED
+"getText(findTestObject(""Object Repository/HappyDayShoppingApp/android.widget.TextView - If you have any inquiries or updates pls whatsap us at 94617563""), 0)",,,,2023-08-18 23:12:23,2023-08-18 23:12:37,14.025s,PASSED
+closeApplication(),,,,2023-08-18 23:12:37,2023-08-18 23:12:39,2.079s,PASSED
