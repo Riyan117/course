@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Login api token - post data</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a0247aac-d6e8-4aee-af6a-73fca2bb3000</testCaseGuid>
+</TestCaseEntity>

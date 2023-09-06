@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>GET single user not found</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>aa20a6d2-ef11-4c82-80e0-e48d7314c68c</testCaseGuid>
+</TestCaseEntity>
