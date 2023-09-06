@@ -1,0 +1,97 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+eduwork final project fe sisko,Firefox 116.0,,,2023-08-29 21:37:23,2023-08-29 21:42:32,5m - 8.919s,PASSED
+,,,,,,,
+Test Cases/fitbybeat/bmi calculate,Firefox 116.0,,,2023-08-29 21:37:24,2023-08-29 21:39:47,2m - 23.274s,PASSED
+"openBrowser("""")",Firefox 116.0,,,2023-08-29 21:37:25,2023-08-29 21:37:39,14.227s,PASSED
+"navigateToUrl(""https://fitbybeat.com/"")",Firefox 116.0,,,2023-08-29 21:37:39,2023-08-29 21:37:55,16.360s,PASSED
+"setText(findTestObject(""Object Repository/fitbybeat/input_Calculate Your BMI_height""), ""170"")",Firefox 116.0,,,2023-08-29 21:37:55,2023-08-29 21:37:57,2.084s,PASSED
+"setText(findTestObject(""Object Repository/fitbybeat/input_Calculate Your BMI_weight""), ""60"")",Firefox 116.0,,,2023-08-29 21:37:57,2023-08-29 21:38:04,6.099s,PASSED
+"setText(findTestObject(""Object Repository/fitbybeat/input_Calculate Your BMI_age""), ""25"")",Firefox 116.0,,,2023-08-29 21:38:04,2023-08-29 21:38:05,1.126s,PASSED
+"click(findTestObject(""Object Repository/fitbybeat/span_Sex""))",Firefox 116.0,,,2023-08-29 21:38:05,2023-08-29 21:38:37,32.236s,PASSED
+"click(findTestObject(""Object Repository/fitbybeat/span_Select an activity factor""))",Firefox 116.0,,,2023-08-29 21:38:37,2023-08-29 21:39:09,31.992s,PASSED
+"click(findTestObject(""Object Repository/fitbybeat/span_Calculate""))",Firefox 116.0,,,2023-08-29 21:39:09,2023-08-29 21:39:41,32.238s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/fitbybeat/span_You are Healthy""))",Firefox 116.0,,,2023-08-29 21:39:41,2023-08-29 21:39:45,3.882s,PASSED
+closeBrowser(),Firefox 116.0,,,2023-08-29 21:39:45,2023-08-29 21:39:47,1.781s,PASSED
+,,,,,,,
+Test Cases/sistemtoko/success login,Firefox 116.0,,,2023-08-29 21:39:47,2023-08-29 21:40:11,23.868s,PASSED
+"openBrowser("""")",Firefox 116.0,,,2023-08-29 21:39:48,2023-08-29 21:39:54,6.069s,PASSED
+"navigateToUrl(""https://sistemtoko.com/"")",Firefox 116.0,,,2023-08-29 21:39:54,2023-08-29 21:40:03,9.105s,PASSED
+"click(findTestObject(""sistemtoko/newslater popup button_No, Thx""))",Firefox 116.0,,,2023-08-29 21:40:03,2023-08-29 21:40:04,0.821s,PASSED
+"click(findTestObject(""Object Repository/sistemtoko/Homepage-button_Login""))",Firefox 116.0,,,2023-08-29 21:40:04,2023-08-29 21:40:07,2.946s,PASSED
+"setText(findTestObject(""Object Repository/sistemtoko/input_Email_email""), ""testqualityauto@gmail.com"")",Firefox 116.0,,,2023-08-29 21:40:07,2023-08-29 21:40:07,0.949s,PASSED
+"setText(findTestObject(""Object Repository/sistemtoko/input_Password_password""), ""R1y4n1107"")",Firefox 116.0,,,2023-08-29 21:40:07,2023-08-29 21:40:08,0.722s,PASSED
+"click(findTestObject(""Object Repository/sistemtoko/button_Login""))",Firefox 116.0,,,2023-08-29 21:40:08,2023-08-29 21:40:09,0.669s,PASSED
+closeBrowser(),Firefox 116.0,,,2023-08-29 21:40:09,2023-08-29 21:40:11,1.877s,PASSED
+,,,,,,,
+Test Cases/sistemtoko/wrong password,Firefox 116.0,,,2023-08-29 21:40:11,2023-08-29 21:40:34,23.448s,PASSED
+"openBrowser("""")",Firefox 116.0,,,2023-08-29 21:40:11,2023-08-29 21:40:18,6.900s,PASSED
+"navigateToUrl(""https://sistemtoko.com/"")",Firefox 116.0,,,2023-08-29 21:40:18,2023-08-29 21:40:27,8.834s,PASSED
+"click(findTestObject(""sistemtoko/newslater popup button_No, Thx""))",Firefox 116.0,,,2023-08-29 21:40:27,2023-08-29 21:40:28,0.924s,PASSED
+"click(findTestObject(""sistemtoko/Homepage-button_Login""))",Firefox 116.0,,,2023-08-29 21:40:28,2023-08-29 21:40:30,2.138s,PASSED
+"setText(findTestObject(""sistemtoko/input_Email_email""), ""testqualityauto@gmail.com"")",Firefox 116.0,,,2023-08-29 21:40:30,2023-08-29 21:40:31,0.710s,PASSED
+"setText(findTestObject(""sistemtoko/input_Password_password""), ""wrongpassword"")",Firefox 116.0,,,2023-08-29 21:40:31,2023-08-29 21:40:31,0.719s,PASSED
+"click(findTestObject(""sistemtoko/button_Login""))",Firefox 116.0,,,2023-08-29 21:40:31,2023-08-29 21:40:32,0.580s,PASSED
+"verifyElementVisible(findTestObject(""sistemtoko/message login wrong email or password""))",Firefox 116.0,,,2023-08-29 21:40:32,2023-08-29 21:40:33,0.599s,PASSED
+closeBrowser(),Firefox 116.0,,,2023-08-29 21:40:33,2023-08-29 21:40:34,1.595s,PASSED
+,,,,,,,
+Test Cases/sistemtoko/wrong email,Firefox 116.0,,,2023-08-29 21:40:34,2023-08-29 21:40:54,20.253s,PASSED
+"openBrowser("""")",Firefox 116.0,,,2023-08-29 21:40:35,2023-08-29 21:40:40,5.210s,PASSED
+"navigateToUrl(""https://sistemtoko.com/"")",Firefox 116.0,,,2023-08-29 21:40:40,2023-08-29 21:40:47,7.478s,PASSED
+"click(findTestObject(""sistemtoko/newslater popup button_No, Thx""))",Firefox 116.0,,,2023-08-29 21:40:47,2023-08-29 21:40:48,0.757s,PASSED
+"click(findTestObject(""sistemtoko/Homepage-button_Login""))",Firefox 116.0,,,2023-08-29 21:40:48,2023-08-29 21:40:50,2.137s,PASSED
+"setText(findTestObject(""sistemtoko/input_Email_email""), ""wrong_email@gmail.com"")",Firefox 116.0,,,2023-08-29 21:40:50,2023-08-29 21:40:51,0.728s,PASSED
+"setText(findTestObject(""sistemtoko/input_Password_password""), ""R1y4n1107"")",Firefox 116.0,,,2023-08-29 21:40:51,2023-08-29 21:40:52,0.677s,PASSED
+"click(findTestObject(""sistemtoko/button_Login""))",Firefox 116.0,,,2023-08-29 21:40:52,2023-08-29 21:40:52,0.671s,PASSED
+"verifyElementVisible(findTestObject(""sistemtoko/message login wrong email or password""))",Firefox 116.0,,,2023-08-29 21:40:52,2023-08-29 21:40:53,0.612s,PASSED
+closeBrowser(),Firefox 116.0,,,2023-08-29 21:40:53,2023-08-29 21:40:54,1.514s,PASSED
+,,,,,,,
+Test Cases/sistemtoko/wrong email and password,Firefox 116.0,,,2023-08-29 21:40:54,2023-08-29 21:41:17,22.306s,PASSED
+"openBrowser("""")",Firefox 116.0,,,2023-08-29 21:40:55,2023-08-29 21:41:00,5.262s,PASSED
+"navigateToUrl(""https://sistemtoko.com/"")",Firefox 116.0,,,2023-08-29 21:41:00,2023-08-29 21:41:10,9.677s,PASSED
+"click(findTestObject(""sistemtoko/newslater popup button_No, Thx""))",Firefox 116.0,,,2023-08-29 21:41:10,2023-08-29 21:41:11,0.696s,PASSED
+"click(findTestObject(""sistemtoko/Homepage-button_Login""))",Firefox 116.0,,,2023-08-29 21:41:11,2023-08-29 21:41:13,2.059s,PASSED
+"setText(findTestObject(""sistemtoko/input_Email_email""), ""wrong_email@gmail.com"")",Firefox 116.0,,,2023-08-29 21:41:13,2023-08-29 21:41:13,0.731s,PASSED
+"setText(findTestObject(""sistemtoko/input_Password_password""), ""wrongpassword"")",Firefox 116.0,,,2023-08-29 21:41:13,2023-08-29 21:41:14,0.657s,PASSED
+"click(findTestObject(""sistemtoko/button_Login""))",Firefox 116.0,,,2023-08-29 21:41:14,2023-08-29 21:41:15,0.632s,PASSED
+"verifyElementVisible(findTestObject(""sistemtoko/message login wrong email or password""))",Firefox 116.0,,,2023-08-29 21:41:15,2023-08-29 21:41:15,0.613s,PASSED
+closeBrowser(),Firefox 116.0,,,2023-08-29 21:41:15,2023-08-29 21:41:17,1.407s,PASSED
+,,,,,,,
+Test Cases/sistemtoko/forgot password register email,Firefox 116.0,,,2023-08-29 21:41:17,2023-08-29 21:41:46,28.952s,PASSED
+"openBrowser("""")",Firefox 116.0,,,2023-08-29 21:41:17,2023-08-29 21:41:23,5.665s,PASSED
+"navigateToUrl(""https://sistemtoko.com/"")",Firefox 116.0,,,2023-08-29 21:41:23,2023-08-29 21:41:35,11.579s,PASSED
+"click(findTestObject(""sistemtoko/newslater popup button_No, Thx""))",Firefox 116.0,,,2023-08-29 21:41:35,2023-08-29 21:41:35,0.646s,PASSED
+"click(findTestObject(""Object Repository/sistemtoko/Homepage-button_Login""))",Firefox 116.0,,,2023-08-29 21:41:35,2023-08-29 21:41:39,4.126s,PASSED
+"click(findTestObject(""sistemtoko/a_I forgot my password""))",Firefox 116.0,,,2023-08-29 21:41:39,2023-08-29 21:41:40,0.899s,PASSED
+"setText(findTestObject(""sistemtoko/input email forgot password""), ""testqualityauto@gmail.com"")",Firefox 116.0,,,2023-08-29 21:41:40,2023-08-29 21:41:41,0.708s,PASSED
+"click(findTestObject(""sistemtoko/send email verif reset password""))",Firefox 116.0,,,2023-08-29 21:41:41,2023-08-29 21:41:44,2.819s,PASSED
+"verifyElementVisible(findTestObject(""sistemtoko/message email forgot password has been send""))",Firefox 116.0,,,2023-08-29 21:41:44,2023-08-29 21:41:44,0.509s,PASSED
+closeBrowser(),Firefox 116.0,,,2023-08-29 21:41:44,2023-08-29 21:41:46,1.521s,PASSED
+,,,,,,,
+Test Cases/sistemtoko/forgot password unregister email,Firefox 116.0,,,2023-08-29 21:41:46,2023-08-29 21:42:12,26.649s,PASSED
+"openBrowser("""")",Firefox 116.0,,,2023-08-29 21:41:46,2023-08-29 21:41:53,6.266s,PASSED
+"navigateToUrl(""https://sistemtoko.com/"")",Firefox 116.0,,,2023-08-29 21:41:53,2023-08-29 21:42:04,11.724s,PASSED
+"click(findTestObject(""sistemtoko/newslater popup button_No, Thx""))",Firefox 116.0,,,2023-08-29 21:42:04,2023-08-29 21:42:05,0.741s,PASSED
+"click(findTestObject(""Object Repository/sistemtoko/Homepage-button_Login""))",Firefox 116.0,,,2023-08-29 21:42:05,2023-08-29 21:42:07,2.156s,PASSED
+"click(findTestObject(""sistemtoko/a_I forgot my password""))",Firefox 116.0,,,2023-08-29 21:42:07,2023-08-29 21:42:08,0.894s,PASSED
+"setText(findTestObject(""sistemtoko/input email forgot password""), ""wrong.email@gmail.com"")",Firefox 116.0,,,2023-08-29 21:42:08,2023-08-29 21:42:09,0.836s,PASSED
+"click(findTestObject(""sistemtoko/send email verif reset password""))",Firefox 116.0,,,2023-08-29 21:42:09,2023-08-29 21:42:10,1.226s,PASSED
+"verifyElementVisible(findTestObject(""sistemtoko/message unregister email for reset password""))",Firefox 116.0,,,2023-08-29 21:42:10,2023-08-29 21:42:11,0.514s,PASSED
+closeBrowser(),Firefox 116.0,,,2023-08-29 21:42:11,2023-08-29 21:42:12,1.660s,PASSED
+,,,,,,,
+Test Cases/sistemtoko API/General/GET web info,Firefox 116.0,,,2023-08-29 21:42:12,2023-08-29 21:42:23,10.589s,PASSED
+"sendRequest(findTestObject(""sistemtoko API/GET web info""))",Firefox 116.0,,,2023-08-29 21:42:14,2023-08-29 21:42:23,9.367s,PASSED
+,,,,,,,
+Test Cases/sistemtoko API/Product/GET product list,Firefox 116.0,,,2023-08-29 21:42:23,2023-08-29 21:42:25,2.300s,PASSED
+"sendRequest(findTestObject(""sistemtoko API/GET product list""))",Firefox 116.0,,,2023-08-29 21:42:24,2023-08-29 21:42:25,1.807s,PASSED
+,,,,,,,
+Test Cases/sistemtoko API/Product/GET product detail,Firefox 116.0,,,2023-08-29 21:42:25,2023-08-29 21:42:27,1.989s,PASSED
+"sendRequest(findTestObject(""sistemtoko API/GET product detail""))",Firefox 116.0,,,2023-08-29 21:42:26,2023-08-29 21:42:27,1.203s,PASSED
+,,,,,,,
+Test Cases/sistemtoko API/Product/GET product varian,Firefox 116.0,,,2023-08-29 21:42:27,2023-08-29 21:42:29,1.411s,PASSED
+"sendRequest(findTestObject(""sistemtoko API/GET product varian""))",Firefox 116.0,,,2023-08-29 21:42:28,2023-08-29 21:42:29,1.003s,PASSED
+,,,,,,,
+Test Cases/sistemtoko API/Product/GET product categories,Firefox 116.0,,,2023-08-29 21:42:29,2023-08-29 21:42:30,1.576s,PASSED
+"sendRequest(findTestObject(""sistemtoko API/GET product categories""))",Firefox 116.0,,,2023-08-29 21:42:29,2023-08-29 21:42:30,1.131s,PASSED
+,,,,,,,
+Test Cases/sistemtoko API/Product/GET product keyword,Firefox 116.0,,,2023-08-29 21:42:30,2023-08-29 21:42:32,1.194s,PASSED
+"sendRequest(findTestObject(""sistemtoko API/GET product keyword""))",Firefox 116.0,,,2023-08-29 21:42:31,2023-08-29 21:42:32,0.831s,PASSED

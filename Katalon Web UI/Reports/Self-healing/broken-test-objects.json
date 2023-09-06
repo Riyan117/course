@@ -1,0 +1,44 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/OrangeHRM/Cek candidate to interview/Page_OrangeHRM/p_(1) Candidate to Interview",
+      "brokenLocator": "//div[@id\u003d\u0027app\u0027]/div/div[2]/div[2]/div/div[2]/div/div[2]/div/div[4]/p",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[4]/p",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/OrangeHRM/Cek candidate to interview/Page_OrangeHRM/p_(1) Candidate to Interview_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/fitbybeat/span_Sex",
+      "brokenLocator": "//span[@id\u003d\u0027select2-sex-uk-container\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Calculate Your BMI\u0027])[1]/following::span[4]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/fitbybeat/span_Sex_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/fitbybeat/span_Select an activity factor",
+      "brokenLocator": "//span[@id\u003d\u0027select2-activity_level-0l-container\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Calculate Your BMI\u0027])[1]/following::span[10]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/fitbybeat/span_Select an activity factor_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/fitbybeat/span_Calculate",
+      "brokenLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Little or no Exercise/ desk job\u0027])[2]/following::span[3]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Our Timetable\u0027])[1]/preceding::span[6]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/fitbybeat/span_Calculate_neighbor.png"
+    }
+  ]
+}

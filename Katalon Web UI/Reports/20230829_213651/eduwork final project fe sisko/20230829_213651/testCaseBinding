@@ -1,0 +1,13 @@
+{"testCaseName":"Test Cases/fitbybeat/bmi calculate","testCaseId":"Test Cases/fitbybeat/bmi calculate","iterationVariableName":""}
+{"testCaseName":"Test Cases/sistemtoko/success login","testCaseId":"Test Cases/sistemtoko/success login","iterationVariableName":""}
+{"testCaseName":"Test Cases/sistemtoko/wrong password","testCaseId":"Test Cases/sistemtoko/wrong password","iterationVariableName":""}
+{"testCaseName":"Test Cases/sistemtoko/wrong email","testCaseId":"Test Cases/sistemtoko/wrong email","iterationVariableName":""}
+{"testCaseName":"Test Cases/sistemtoko/wrong email and password","testCaseId":"Test Cases/sistemtoko/wrong email and password","iterationVariableName":""}
+{"testCaseName":"Test Cases/sistemtoko/forgot password register email","testCaseId":"Test Cases/sistemtoko/forgot password register email","iterationVariableName":""}
+{"testCaseName":"Test Cases/sistemtoko/forgot password unregister email","testCaseId":"Test Cases/sistemtoko/forgot password unregister email","iterationVariableName":""}
+{"testCaseName":"Test Cases/sistemtoko API/General/GET web info","testCaseId":"Test Cases/sistemtoko API/General/GET web info","iterationVariableName":""}
+{"testCaseName":"Test Cases/sistemtoko API/Product/GET product list","testCaseId":"Test Cases/sistemtoko API/Product/GET product list","iterationVariableName":""}
+{"testCaseName":"Test Cases/sistemtoko API/Product/GET product detail","testCaseId":"Test Cases/sistemtoko API/Product/GET product detail","iterationVariableName":""}
+{"testCaseName":"Test Cases/sistemtoko API/Product/GET product varian","testCaseId":"Test Cases/sistemtoko API/Product/GET product varian","iterationVariableName":""}
+{"testCaseName":"Test Cases/sistemtoko API/Product/GET product categories","testCaseId":"Test Cases/sistemtoko API/Product/GET product categories","iterationVariableName":""}
+{"testCaseName":"Test Cases/sistemtoko API/Product/GET product keyword","testCaseId":"Test Cases/sistemtoko API/Product/GET product keyword","iterationVariableName":""}

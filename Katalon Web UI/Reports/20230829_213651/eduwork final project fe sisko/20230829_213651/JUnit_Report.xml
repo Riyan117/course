@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="eduwork final project fe sisko" time="308.919" tests="13" failures="0" errors="0">
+   <testsuite name="eduwork final project fe sisko" tests="13" failures="0" errors="0" time="308.919" skipped="0" timestamp="2023-08-29 21:37:23" hostname="riyan - 192.168.1.8" id="Test Suites/eduwork final project fe sisko">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/riyan/Desktop/katalon_webUI/Katalon Web UI Tests/Reports/20230829_213651/eduwork final project fe sisko/20230829_213651"/>
+         <property name="logFiles" value="/Users/riyan/Desktop/katalon_webUI/Katalon Web UI Tests/Reports/20230829_213651/eduwork final project fe sisko/20230829_213651/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="riyan - 192.168.1.8"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="8.5.5.208"/>
+         <property name="browser" value="Firefox 116.0"/>
+         <property name="hostAddress" value="192.168.1.8"/>
+         <property name="sessionId" value="95d48bb3-2882-4416-b37e-3f8246bc39ea"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/fitbybeat/bmi calculate" time="143.274" classname="Test Cases/fitbybeat/bmi calculate" status="PASSED">
+         <system-out><![CDATA[2023-08-29 21:37:24 - [TEST_CASE][PASSED] - Test Cases/fitbybeat/bmi calculate: Test Cases/fitbybeat/bmi calculate
+
+2023-08-29 21:37:25 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-08-29 21:37:26 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-08-29 21:37:26 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-29 21:37:39 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-08-29 21:37:39 - [TEST_STEP][PASSED] - navigateToUrl("https://fitbybeat.com/"): Navigate to 'https://fitbybeat.com/' successfully
+
+2023-08-29 21:37:55 - [MESSAGE][PASSED] - Navigate to 'https://fitbybeat.com/' successfully
+
+2023-08-29 21:37:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/fitbybeat/input_Calculate Your BMI_height"), "170"): Text '170' is set on object 'Object Repository/fitbybeat/input_Calculate Your BMI_height'
+
+2023-08-29 21:37:57 - [MESSAGE][PASSED] - Text '170' is set on object 'Object Repository/fitbybeat/input_Calculate Your BMI_height'
+
+2023-08-29 21:37:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/fitbybeat/input_Calculate Your BMI_weight"), "60"): Text '60' is set on object 'Object Repository/fitbybeat/input_Calculate Your BMI_weight'
+
+2023-08-29 21:38:04 - [MESSAGE][PASSED] - Text '60' is set on object 'Object Repository/fitbybeat/input_Calculate Your BMI_weight'
+
+2023-08-29 21:38:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/fitbybeat/input_Calculate Your BMI_age"), "25"): Text '25' is set on object 'Object Repository/fitbybeat/input_Calculate Your BMI_age'
+
+2023-08-29 21:38:05 - [MESSAGE][PASSED] - Text '25' is set on object 'Object Repository/fitbybeat/input_Calculate Your BMI_age'
+
+2023-08-29 21:38:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fitbybeat/span_Sex")): Object: 'Object Repository/fitbybeat/span_Sex' is clicked on
+
+2023-08-29 21:38:36 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //span[@id='select2-sex-uk-container']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-08-29 21:38:36 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/fitbybeat/span_Sex'. Try using Self-healing.
+
+2023-08-29 21:38:37 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/fitbybeat/span_Sex' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Calculate Your BMI'])[1]/following::span[4]'.
+
+2023-08-29 21:38:37 - [MESSAGE][PASSED] - Object: 'Object Repository/fitbybeat/span_Sex' is clicked on
+
+2023-08-29 21:38:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fitbybeat/span_Select an activity factor")): Object: 'Object Repository/fitbybeat/span_Select an activity factor' is clicked on
+
+2023-08-29 21:39:08 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //span[@id='select2-activity_level-0l-container']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-08-29 21:39:08 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/fitbybeat/span_Select an activity factor'. Try using Self-healing.
+
+2023-08-29 21:39:09 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/fitbybeat/span_Select an activity factor' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Calculate Your BMI'])[1]/following::span[10]'.
+
+2023-08-29 21:39:09 - [MESSAGE][PASSED] - Object: 'Object Repository/fitbybeat/span_Select an activity factor' is clicked on
+
+2023-08-29 21:39:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/fitbybeat/span_Calculate")): Object: 'Object Repository/fitbybeat/span_Calculate' is clicked on
+
+2023-08-29 21:39:40 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Little or no Exercise/ desk job'])[2]/following::span[3]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-08-29 21:39:40 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/fitbybeat/span_Calculate'. Try using Self-healing.
+
+2023-08-29 21:39:41 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/fitbybeat/span_Calculate' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Our Timetable'])[1]/preceding::span[6]'.
+
+2023-08-29 21:39:41 - [MESSAGE][PASSED] - Object: 'Object Repository/fitbybeat/span_Calculate' is clicked on
+
+2023-08-29 21:39:41 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/fitbybeat/span_You are Healthy")): Object 'Object Repository/fitbybeat/span_You are Healthy' is visible
+
+2023-08-29 21:39:45 - [MESSAGE][PASSED] - Object 'Object Repository/fitbybeat/span_You are Healthy' is visible
+
+2023-08-29 21:39:45 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-08-29 21:39:47 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/sistemtoko/success login" time="23.868" classname="Test Cases/sistemtoko/success login" status="PASSED">
+         <system-out><![CDATA[2023-08-29 21:39:47 - [TEST_CASE][PASSED] - Test Cases/sistemtoko/success login: Test Cases/sistemtoko/success login
+
+2023-08-29 21:39:48 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-08-29 21:39:48 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-08-29 21:39:48 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-29 21:39:54 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-08-29 21:39:54 - [TEST_STEP][PASSED] - navigateToUrl("https://sistemtoko.com/"): Navigate to 'https://sistemtoko.com/' successfully
+
+2023-08-29 21:40:03 - [MESSAGE][PASSED] - Navigate to 'https://sistemtoko.com/' successfully
+
+2023-08-29 21:40:03 - [TEST_STEP][PASSED] - click(findTestObject("sistemtoko/newslater popup button_No, Thx")): Object: 'Object Repository/sistemtoko/newslater popup button_No, Thx' is clicked on
+
+2023-08-29 21:40:04 - [MESSAGE][PASSED] - Object: 'Object Repository/sistemtoko/newslater popup button_No, Thx' is clicked on
+
+2023-08-29 21:40:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sistemtoko/Homepage-button_Login")): Object: 'Object Repository/sistemtoko/Homepage-button_Login' is clicked on
+
+2023-08-29 21:40:07 - [MESSAGE][PASSED] - Object: 'Object Repository/sistemtoko/Homepage-button_Login' is clicked on
+
+2023-08-29 21:40:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/sistemtoko/input_Email_email"), "testqualityauto@gmail.com"): Text 'testqualityauto@gmail.com' is set on object 'Object Repository/sistemtoko/input_Email_email'
+
+2023-08-29 21:40:07 - [MESSAGE][PASSED] - Text 'testqualityauto@gmail.com' is set on object 'Object Repository/sistemtoko/input_Email_email'
+
+2023-08-29 21:40:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/sistemtoko/input_Password_password"), "R1y4n1107"): Text 'R1y4n1107' is set on object 'Object Repository/sistemtoko/input_Password_password'
+
+2023-08-29 21:40:08 - [MESSAGE][PASSED] - Text 'R1y4n1107' is set on object 'Object Repository/sistemtoko/input_Password_password'
+
+2023-08-29 21:40:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sistemtoko/button_Login")): Object: 'Object Repository/sistemtoko/button_Login' is clicked on
+
+2023-08-29 21:40:09 - [MESSAGE][PASSED] - Object: 'Object Repository/sistemtoko/button_Login' is clicked on
+
+2023-08-29 21:40:09 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-08-29 21:40:11 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/sistemtoko/wrong password" time="23.448" classname="Test Cases/sistemtoko/wrong password" status="PASSED">
+         <system-out><![CDATA[2023-08-29 21:40:11 - [TEST_CASE][PASSED] - Test Cases/sistemtoko/wrong password: Test Cases/sistemtoko/wrong password
+
+2023-08-29 21:40:11 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-08-29 21:40:11 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-08-29 21:40:11 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-29 21:40:18 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-08-29 21:40:18 - [TEST_STEP][PASSED] - navigateToUrl("https://sistemtoko.com/"): Navigate to 'https://sistemtoko.com/' successfully
+
+2023-08-29 21:40:27 - [MESSAGE][PASSED] - Navigate to 'https://sistemtoko.com/' successfully
+
+2023-08-29 21:40:27 - [TEST_STEP][PASSED] - click(findTestObject("sistemtoko/newslater popup button_No, Thx")): Object: 'Object Repository/sistemtoko/newslater popup button_No, Thx' is clicked on
+
+2023-08-29 21:40:28 - [MESSAGE][PASSED] - Object: 'Object Repository/sistemtoko/newslater popup button_No, Thx' is clicked on
+
+2023-08-29 21:40:28 - [TEST_STEP][PASSED] - click(findTestObject("sistemtoko/Homepage-button_Login")): Object: 'Object Repository/sistemtoko/Homepage-button_Login' is clicked on
+
+2023-08-29 21:40:30 - [MESSAGE][PASSED] - Object: 'Object Repository/sistemtoko/Homepage-button_Login' is clicked on
+
+2023-08-29 21:40:30 - [TEST_STEP][PASSED] - setText(findTestObject("sistemtoko/input_Email_email"), "testqualityauto@gmail.com"): Text 'testqualityauto@gmail.com' is set on object 'Object Repository/sistemtoko/input_Email_email'
+
+2023-08-29 21:40:31 - [MESSAGE][PASSED] - Text 'testqualityauto@gmail.com' is set on object 'Object Repository/sistemtoko/input_Email_email'
+
+2023-08-29 21:40:31 - [TEST_STEP][PASSED] - setText(findTestObject("sistemtoko/input_Password_password"), "wrongpassword"): Text 'wrongpassword' is set on object 'Object Repository/sistemtoko/input_Password_password'
+
+2023-08-29 21:40:31 - [MESSAGE][PASSED] - Text 'wrongpassword' is set on object 'Object Repository/sistemtoko/input_Password_password'
+
+2023-08-29 21:40:31 - [TEST_STEP][PASSED] - click(findTestObject("sistemtoko/button_Login")): Object: 'Object Repository/sistemtoko/button_Login' is clicked on
+
+2023-08-29 21:40:32 - [MESSAGE][PASSED] - Object: 'Object Repository/sistemtoko/button_Login' is clicked on
+
+2023-08-29 21:40:32 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("sistemtoko/message login wrong email or password")): Object 'Object Repository/sistemtoko/message login wrong email or password' is visible
+
+2023-08-29 21:40:33 - [MESSAGE][PASSED] - Object 'Object Repository/sistemtoko/message login wrong email or password' is visible
+
+2023-08-29 21:40:33 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-08-29 21:40:34 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/sistemtoko/wrong email" time="20.253" classname="Test Cases/sistemtoko/wrong email" status="PASSED">
+         <system-out><![CDATA[2023-08-29 21:40:34 - [TEST_CASE][PASSED] - Test Cases/sistemtoko/wrong email: Test Cases/sistemtoko/wrong email
+
+2023-08-29 21:40:35 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-08-29 21:40:35 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-08-29 21:40:35 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-29 21:40:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-08-29 21:40:40 - [TEST_STEP][PASSED] - navigateToUrl("https://sistemtoko.com/"): Navigate to 'https://sistemtoko.com/' successfully
+
+2023-08-29 21:40:47 - [MESSAGE][PASSED] - Navigate to 'https://sistemtoko.com/' successfully
+
+2023-08-29 21:40:47 - [TEST_STEP][PASSED] - click(findTestObject("sistemtoko/newslater popup button_No, Thx")): Object: 'Object Repository/sistemtoko/newslater popup button_No, Thx' is clicked on
+
+2023-08-29 21:40:48 - [MESSAGE][PASSED] - Object: 'Object Repository/sistemtoko/newslater popup button_No, Thx' is clicked on
+
+2023-08-29 21:40:48 - [TEST_STEP][PASSED] - click(findTestObject("sistemtoko/Homepage-button_Login")): Object: 'Object Repository/sistemtoko/Homepage-button_Login' is clicked on
+
+2023-08-29 21:40:50 - [MESSAGE][PASSED] - Object: 'Object Repository/sistemtoko/Homepage-button_Login' is clicked on
+
+2023-08-29 21:40:50 - [TEST_STEP][PASSED] - setText(findTestObject("sistemtoko/input_Email_email"), "wrong_email@gmail.com"): Text 'wrong_email@gmail.com' is set on object 'Object Repository/sistemtoko/input_Email_email'
+
+2023-08-29 21:40:51 - [MESSAGE][PASSED] - Text 'wrong_email@gmail.com' is set on object 'Object Repository/sistemtoko/input_Email_email'
+
+2023-08-29 21:40:51 - [TEST_STEP][PASSED] - setText(findTestObject("sistemtoko/input_Password_password"), "R1y4n1107"): Text 'R1y4n1107' is set on object 'Object Repository/sistemtoko/input_Password_password'
+
+2023-08-29 21:40:52 - [MESSAGE][PASSED] - Text 'R1y4n1107' is set on object 'Object Repository/sistemtoko/input_Password_password'
+
+2023-08-29 21:40:52 - [TEST_STEP][PASSED] - click(findTestObject("sistemtoko/button_Login")): Object: 'Object Repository/sistemtoko/button_Login' is clicked on
+
+2023-08-29 21:40:52 - [MESSAGE][PASSED] - Object: 'Object Repository/sistemtoko/button_Login' is clicked on
+
+2023-08-29 21:40:52 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("sistemtoko/message login wrong email or password")): Object 'Object Repository/sistemtoko/message login wrong email or password' is visible
+
+2023-08-29 21:40:53 - [MESSAGE][PASSED] - Object 'Object Repository/sistemtoko/message login wrong email or password' is visible
+
+2023-08-29 21:40:53 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-08-29 21:40:54 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/sistemtoko/wrong email and password" time="22.306" classname="Test Cases/sistemtoko/wrong email and password" status="PASSED">
+         <system-out><![CDATA[2023-08-29 21:40:54 - [TEST_CASE][PASSED] - Test Cases/sistemtoko/wrong email and password: Test Cases/sistemtoko/wrong email and password
+
+2023-08-29 21:40:55 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-08-29 21:40:55 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-08-29 21:40:55 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-29 21:41:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-08-29 21:41:00 - [TEST_STEP][PASSED] - navigateToUrl("https://sistemtoko.com/"): Navigate to 'https://sistemtoko.com/' successfully
+
+2023-08-29 21:41:10 - [MESSAGE][PASSED] - Navigate to 'https://sistemtoko.com/' successfully
+
+2023-08-29 21:41:10 - [TEST_STEP][PASSED] - click(findTestObject("sistemtoko/newslater popup button_No, Thx")): Object: 'Object Repository/sistemtoko/newslater popup button_No, Thx' is clicked on
+
+2023-08-29 21:41:11 - [MESSAGE][PASSED] - Object: 'Object Repository/sistemtoko/newslater popup button_No, Thx' is clicked on
+
+2023-08-29 21:41:11 - [TEST_STEP][PASSED] - click(findTestObject("sistemtoko/Homepage-button_Login")): Object: 'Object Repository/sistemtoko/Homepage-button_Login' is clicked on
+
+2023-08-29 21:41:13 - [MESSAGE][PASSED] - Object: 'Object Repository/sistemtoko/Homepage-button_Login' is clicked on
+
+2023-08-29 21:41:13 - [TEST_STEP][PASSED] - setText(findTestObject("sistemtoko/input_Email_email"), "wrong_email@gmail.com"): Text 'wrong_email@gmail.com' is set on object 'Object Repository/sistemtoko/input_Email_email'
+
+2023-08-29 21:41:13 - [MESSAGE][PASSED] - Text 'wrong_email@gmail.com' is set on object 'Object Repository/sistemtoko/input_Email_email'
+
+2023-08-29 21:41:13 - [TEST_STEP][PASSED] - setText(findTestObject("sistemtoko/input_Password_password"), "wrongpassword"): Text 'wrongpassword' is set on object 'Object Repository/sistemtoko/input_Password_password'
+
+2023-08-29 21:41:14 - [MESSAGE][PASSED] - Text 'wrongpassword' is set on object 'Object Repository/sistemtoko/input_Password_password'
+
+2023-08-29 21:41:14 - [TEST_STEP][PASSED] - click(findTestObject("sistemtoko/button_Login")): Object: 'Object Repository/sistemtoko/button_Login' is clicked on
+
+2023-08-29 21:41:15 - [MESSAGE][PASSED] - Object: 'Object Repository/sistemtoko/button_Login' is clicked on
+
+2023-08-29 21:41:15 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("sistemtoko/message login wrong email or password")): Object 'Object Repository/sistemtoko/message login wrong email or password' is visible
+
+2023-08-29 21:41:15 - [MESSAGE][PASSED] - Object 'Object Repository/sistemtoko/message login wrong email or password' is visible
+
+2023-08-29 21:41:15 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-08-29 21:41:17 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/sistemtoko/forgot password register email" time="28.952" classname="Test Cases/sistemtoko/forgot password register email" status="PASSED">
+         <system-out><![CDATA[2023-08-29 21:41:17 - [TEST_CASE][PASSED] - Test Cases/sistemtoko/forgot password register email: Test Cases/sistemtoko/forgot password register email
+
+2023-08-29 21:41:17 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-08-29 21:41:17 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-08-29 21:41:17 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-29 21:41:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-08-29 21:41:23 - [TEST_STEP][PASSED] - navigateToUrl("https://sistemtoko.com/"): Navigate to 'https://sistemtoko.com/' successfully
+
+2023-08-29 21:41:35 - [MESSAGE][PASSED] - Navigate to 'https://sistemtoko.com/' successfully
+
+2023-08-29 21:41:35 - [TEST_STEP][PASSED] - click(findTestObject("sistemtoko/newslater popup button_No, Thx")): Object: 'Object Repository/sistemtoko/newslater popup button_No, Thx' is clicked on
+
+2023-08-29 21:41:35 - [MESSAGE][PASSED] - Object: 'Object Repository/sistemtoko/newslater popup button_No, Thx' is clicked on
+
+2023-08-29 21:41:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sistemtoko/Homepage-button_Login")): Object: 'Object Repository/sistemtoko/Homepage-button_Login' is clicked on
+
+2023-08-29 21:41:39 - [MESSAGE][PASSED] - Object: 'Object Repository/sistemtoko/Homepage-button_Login' is clicked on
+
+2023-08-29 21:41:39 - [TEST_STEP][PASSED] - click(findTestObject("sistemtoko/a_I forgot my password")): Object: 'Object Repository/sistemtoko/a_I forgot my password' is clicked on
+
+2023-08-29 21:41:40 - [MESSAGE][PASSED] - Object: 'Object Repository/sistemtoko/a_I forgot my password' is clicked on
+
+2023-08-29 21:41:40 - [TEST_STEP][PASSED] - setText(findTestObject("sistemtoko/input email forgot password"), "testqualityauto@gmail.com"): Text 'testqualityauto@gmail.com' is set on object 'Object Repository/sistemtoko/input email forgot password'
+
+2023-08-29 21:41:41 - [MESSAGE][PASSED] - Text 'testqualityauto@gmail.com' is set on object 'Object Repository/sistemtoko/input email forgot password'
+
+2023-08-29 21:41:41 - [TEST_STEP][PASSED] - click(findTestObject("sistemtoko/send email verif reset password")): Object: 'Object Repository/sistemtoko/send email verif reset password' is clicked on
+
+2023-08-29 21:41:44 - [MESSAGE][PASSED] - Object: 'Object Repository/sistemtoko/send email verif reset password' is clicked on
+
+2023-08-29 21:41:44 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("sistemtoko/message email forgot password has been send")): Object 'Object Repository/sistemtoko/message email forgot password has been send' is visible
+
+2023-08-29 21:41:44 - [MESSAGE][PASSED] - Object 'Object Repository/sistemtoko/message email forgot password has been send' is visible
+
+2023-08-29 21:41:44 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-08-29 21:41:46 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/sistemtoko/forgot password unregister email" time="26.649" classname="Test Cases/sistemtoko/forgot password unregister email" status="PASSED">
+         <system-out><![CDATA[2023-08-29 21:41:46 - [TEST_CASE][PASSED] - Test Cases/sistemtoko/forgot password unregister email: Test Cases/sistemtoko/forgot password unregister email
+
+2023-08-29 21:41:46 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-08-29 21:41:46 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-08-29 21:41:46 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-29 21:41:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-08-29 21:41:53 - [TEST_STEP][PASSED] - navigateToUrl("https://sistemtoko.com/"): Navigate to 'https://sistemtoko.com/' successfully
+
+2023-08-29 21:42:04 - [MESSAGE][PASSED] - Navigate to 'https://sistemtoko.com/' successfully
+
+2023-08-29 21:42:04 - [TEST_STEP][PASSED] - click(findTestObject("sistemtoko/newslater popup button_No, Thx")): Object: 'Object Repository/sistemtoko/newslater popup button_No, Thx' is clicked on
+
+2023-08-29 21:42:05 - [MESSAGE][PASSED] - Object: 'Object Repository/sistemtoko/newslater popup button_No, Thx' is clicked on
+
+2023-08-29 21:42:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sistemtoko/Homepage-button_Login")): Object: 'Object Repository/sistemtoko/Homepage-button_Login' is clicked on
+
+2023-08-29 21:42:07 - [MESSAGE][PASSED] - Object: 'Object Repository/sistemtoko/Homepage-button_Login' is clicked on
+
+2023-08-29 21:42:07 - [TEST_STEP][PASSED] - click(findTestObject("sistemtoko/a_I forgot my password")): Object: 'Object Repository/sistemtoko/a_I forgot my password' is clicked on
+
+2023-08-29 21:42:08 - [MESSAGE][PASSED] - Object: 'Object Repository/sistemtoko/a_I forgot my password' is clicked on
+
+2023-08-29 21:42:08 - [TEST_STEP][PASSED] - setText(findTestObject("sistemtoko/input email forgot password"), "wrong.email@gmail.com"): Text 'wrong.email@gmail.com' is set on object 'Object Repository/sistemtoko/input email forgot password'
+
+2023-08-29 21:42:09 - [MESSAGE][PASSED] - Text 'wrong.email@gmail.com' is set on object 'Object Repository/sistemtoko/input email forgot password'
+
+2023-08-29 21:42:09 - [TEST_STEP][PASSED] - click(findTestObject("sistemtoko/send email verif reset password")): Object: 'Object Repository/sistemtoko/send email verif reset password' is clicked on
+
+2023-08-29 21:42:10 - [MESSAGE][PASSED] - Object: 'Object Repository/sistemtoko/send email verif reset password' is clicked on
+
+2023-08-29 21:42:10 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("sistemtoko/message unregister email for reset password")): Object 'Object Repository/sistemtoko/message unregister email for reset password' is visible
+
+2023-08-29 21:42:11 - [MESSAGE][PASSED] - Object 'Object Repository/sistemtoko/message unregister email for reset password' is visible
+
+2023-08-29 21:42:11 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-08-29 21:42:12 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/sistemtoko API/General/GET web info" time="10.589" classname="Test Cases/sistemtoko API/General/GET web info" status="PASSED">
+         <system-out><![CDATA[2023-08-29 21:42:12 - [TEST_CASE][PASSED] - Test Cases/sistemtoko API/General/GET web info: Test Cases/sistemtoko API/General/GET web info
+
+2023-08-29 21:42:14 - [TEST_STEP][PASSED] - sendRequest(findTestObject("sistemtoko API/GET web info")): Send request successfully
+
+2023-08-29 21:42:23 - [MESSAGE][INFO] - HAR: /Users/riyan/Desktop/katalon_webUI/Katalon Web UI Tests/Reports/20230829_213651/eduwork final project fe sisko/20230829_213651/requests/main/0.har
+
+2023-08-29 21:42:23 - [MESSAGE][PASSED] - Send request successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/sistemtoko API/Product/GET product list" time="2.3" classname="Test Cases/sistemtoko API/Product/GET product list" status="PASSED">
+         <system-out><![CDATA[2023-08-29 21:42:23 - [TEST_CASE][PASSED] - Test Cases/sistemtoko API/Product/GET product list: Test Cases/sistemtoko API/Product/GET product list
+
+2023-08-29 21:42:24 - [TEST_STEP][PASSED] - sendRequest(findTestObject("sistemtoko API/GET product list")): Send request successfully
+
+2023-08-29 21:42:25 - [MESSAGE][INFO] - HAR: /Users/riyan/Desktop/katalon_webUI/Katalon Web UI Tests/Reports/20230829_213651/eduwork final project fe sisko/20230829_213651/requests/main/1.har
+
+2023-08-29 21:42:25 - [MESSAGE][PASSED] - Send request successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/sistemtoko API/Product/GET product detail" time="1.989" classname="Test Cases/sistemtoko API/Product/GET product detail" status="PASSED">
+         <system-out><![CDATA[2023-08-29 21:42:25 - [TEST_CASE][PASSED] - Test Cases/sistemtoko API/Product/GET product detail: Test Cases/sistemtoko API/Product/GET product detail
+
+2023-08-29 21:42:26 - [TEST_STEP][PASSED] - sendRequest(findTestObject("sistemtoko API/GET product detail")): Send request successfully
+
+2023-08-29 21:42:27 - [MESSAGE][INFO] - HAR: /Users/riyan/Desktop/katalon_webUI/Katalon Web UI Tests/Reports/20230829_213651/eduwork final project fe sisko/20230829_213651/requests/main/2.har
+
+2023-08-29 21:42:27 - [MESSAGE][PASSED] - Send request successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/sistemtoko API/Product/GET product varian" time="1.411" classname="Test Cases/sistemtoko API/Product/GET product varian" status="PASSED">
+         <system-out><![CDATA[2023-08-29 21:42:27 - [TEST_CASE][PASSED] - Test Cases/sistemtoko API/Product/GET product varian: Test Cases/sistemtoko API/Product/GET product varian
+
+2023-08-29 21:42:28 - [TEST_STEP][PASSED] - sendRequest(findTestObject("sistemtoko API/GET product varian")): Send request successfully
+
+2023-08-29 21:42:29 - [MESSAGE][INFO] - HAR: /Users/riyan/Desktop/katalon_webUI/Katalon Web UI Tests/Reports/20230829_213651/eduwork final project fe sisko/20230829_213651/requests/main/3.har
+
+2023-08-29 21:42:29 - [MESSAGE][PASSED] - Send request successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/sistemtoko API/Product/GET product categories" time="1.576" classname="Test Cases/sistemtoko API/Product/GET product categories" status="PASSED">
+         <system-out><![CDATA[2023-08-29 21:42:29 - [TEST_CASE][PASSED] - Test Cases/sistemtoko API/Product/GET product categories: Test Cases/sistemtoko API/Product/GET product categories
+
+2023-08-29 21:42:29 - [TEST_STEP][PASSED] - sendRequest(findTestObject("sistemtoko API/GET product categories")): Send request successfully
+
+2023-08-29 21:42:30 - [MESSAGE][INFO] - HAR: /Users/riyan/Desktop/katalon_webUI/Katalon Web UI Tests/Reports/20230829_213651/eduwork final project fe sisko/20230829_213651/requests/main/4.har
+
+2023-08-29 21:42:30 - [MESSAGE][PASSED] - Send request successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/sistemtoko API/Product/GET product keyword" time="1.194" classname="Test Cases/sistemtoko API/Product/GET product keyword" status="PASSED">
+         <system-out><![CDATA[2023-08-29 21:42:30 - [TEST_CASE][PASSED] - Test Cases/sistemtoko API/Product/GET product keyword: Test Cases/sistemtoko API/Product/GET product keyword
+
+2023-08-29 21:42:31 - [TEST_STEP][PASSED] - sendRequest(findTestObject("sistemtoko API/GET product keyword")): Send request successfully
+
+2023-08-29 21:42:32 - [MESSAGE][INFO] - HAR: /Users/riyan/Desktop/katalon_webUI/Katalon Web UI Tests/Reports/20230829_213651/eduwork final project fe sisko/20230829_213651/requests/main/5.har
+
+2023-08-29 21:42:32 - [MESSAGE][PASSED] - Send request successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-08-29 21:37:23 - [TEST_SUITE][PASSED] - eduwork final project fe sisko: Test Cases/sistemtoko API/Product/GET product keyword]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
