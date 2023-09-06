@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Pay Bills</name>
+   <tag></tag>
+   <elementGuidId>f7eb8f41-cbea-4ed5-8ee6-3945b6d97ddd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//li[@id='pay_bills_tab']/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#pay_bills_tab > a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>4a43d8dc-5738-4e78-a0c2-72cd8a8d2cd6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/bank/redirect.html?url=pay-bills.html</value>
+      <webElementGuid>f431bd21-c69f-43a0-b8c1-c170c7e77e57</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Pay Bills</value>
+      <webElementGuid>b13f44e5-7236-459c-a16f-98d5c27f9c89</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;pay_bills_tab&quot;)/a[1]</value>
+      <webElementGuid>983161bd-24e4-44e7-b9ef-593aabe358be</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//li[@id='pay_bills_tab']/a</value>
+      <webElementGuid>66a2cc85-5e1a-48f1-80ad-594f551a7ad8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Pay Bills')]</value>
+      <webElementGuid>866d9983-2e37-4f7e-9dcd-1afbd0f496bb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Transfer Funds'])[1]/following::a[1]</value>
+      <webElementGuid>7572a994-32c0-42b2-b0ce-f2c6b56e2072</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Account Activity'])[1]/following::a[2]</value>
+      <webElementGuid>8295b6f0-6d49-4a2a-b797-166c9bd84e44</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='My Money Map'])[1]/preceding::a[1]</value>
+      <webElementGuid>7b757c23-1323-4774-a8e3-772ad1ef62e6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Online Statements'])[1]/preceding::a[2]</value>
+      <webElementGuid>2ef124f0-3a23-4ad1-a201-1b5d7a291455</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Pay Bills']/parent::*</value>
+      <webElementGuid>016c6484-3b45-4e8e-8ab7-b53c897aacd2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/bank/redirect.html?url=pay-bills.html')]</value>
+      <webElementGuid>187a7661-d9e2-4ad3-a045-11973cac26d2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/ul/li[4]/a</value>
+      <webElementGuid>12d73bef-93d4-4709-a234-de49ae96d154</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/bank/redirect.html?url=pay-bills.html' and (text() = 'Pay Bills' or . = 'Pay Bills')]</value>
+      <webElementGuid>a1d535ea-954e-4d8b-9377-9d089c979fb1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

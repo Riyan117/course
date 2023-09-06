@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Transfer Funds</name>
+   <tag></tag>
+   <elementGuidId>0e8228b6-1053-4c9c-90ae-cd595e8133b3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//li[@id='transfer_funds_tab']/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#transfer_funds_tab > a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>b91c6c9b-4800-4c22-b3e7-a6b7daf12f7e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/bank/redirect.html?url=transfer-funds.html</value>
+      <webElementGuid>cad38305-abe7-4d0b-af84-8a8f4f2fb6af</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Transfer Funds</value>
+      <webElementGuid>636df043-7bc5-417b-a458-36ca98512965</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;transfer_funds_tab&quot;)/a[1]</value>
+      <webElementGuid>f0061ec0-01c3-4cf3-a8b1-2b2e6b21b02f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//li[@id='transfer_funds_tab']/a</value>
+      <webElementGuid>512dabd6-9fb9-423d-9d35-74b58f32e5bf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Transfer Funds')]</value>
+      <webElementGuid>7c515089-4bb4-47f5-a8bf-693bb6635b7d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Account Activity'])[1]/following::a[1]</value>
+      <webElementGuid>00a7abb8-9b65-4606-a3ba-1f3011e8a805</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Account Summary'])[1]/following::a[2]</value>
+      <webElementGuid>e1e63475-b22c-4670-b528-3b6c24df9cb5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pay Bills'])[1]/preceding::a[1]</value>
+      <webElementGuid>4b6f9bcb-3bcd-4e6d-b0ed-bd10c5a89c69</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='My Money Map'])[1]/preceding::a[2]</value>
+      <webElementGuid>7335281a-c45a-45c4-ab07-d17ab2bc7101</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Transfer Funds']/parent::*</value>
+      <webElementGuid>08d73755-9c36-47d7-8614-be7db983489a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/bank/redirect.html?url=transfer-funds.html')]</value>
+      <webElementGuid>2eef46ce-9e3c-435c-8b64-033992a99efa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/div/ul/li[3]/a</value>
+      <webElementGuid>37e68a35-bbe0-4cf7-b03b-b98002dd33b2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/bank/redirect.html?url=transfer-funds.html' and (text() = 'Transfer Funds' or . = 'Transfer Funds')]</value>
+      <webElementGuid>0f3eeb9b-1ec4-41ad-84cc-d0f3ce7d6fbb</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
